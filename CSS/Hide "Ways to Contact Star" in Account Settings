@@ -1,3 +1,9 @@
 i.icon-star.standalone-icon {
 	display: none;
 }
+
+i[class^="icon-"] {
+  display: none;
+  font-style: normal !important;
+  line-height: 1;
+}
