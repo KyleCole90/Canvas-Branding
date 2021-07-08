@@ -1,9 +1,0 @@
-JavaScript:
-  Hide "+Email in Account Settings":  $("a.add_email_link.icon-add").hide();
-
-
-CSS:
-  Hide "Ways to Contact Star": 
-    i.icon-star.standalone-icon {
-      display: none;
-    }
