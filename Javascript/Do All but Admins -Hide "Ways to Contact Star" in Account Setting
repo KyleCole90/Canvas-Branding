@@ -1,0 +1,7 @@
+//Do All But Admins
+if ($.inArray("admin", ENV.current_user_roles) == -1) {
+//Hiding the Star Icon
+ document.getElementsByClassName(
+    "icon-star standalone-icon"
+  )[0].style.visibility = "hidden";
+}
