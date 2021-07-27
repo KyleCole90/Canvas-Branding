@@ -1,0 +1,1 @@
+document.getElementById('permission_lti_add_edit').style.visibility='hidden';
