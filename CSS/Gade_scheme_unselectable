@@ -1,0 +1,1 @@
+$('input#course_grading_standard_enabled').prop('disabled',true); /// Grade Scheme unselectable
