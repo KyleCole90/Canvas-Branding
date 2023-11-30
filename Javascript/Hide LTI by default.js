@@ -13,9 +13,9 @@ function getCookie(name) {
     return decodeURIComponent(xsrfCookies[0].split('=')[1]);
 }
 
-var id = "123" /// Replace with LTI Id. 
+var id = "23791" /// Replace with LTI Id. 
 const csrfToken = getCookie("_csrf_token");
-var url = window.location.origin + "/api/v1/accounts/1/external_tools/" + id + "?course_navigation[default]=disabled";
+var url = window.location.origin + "/api/v1/accounts/self/external_tools/" + id + "?course_navigation[default]=disabled";
 await fetch(url,{
     method: 'PUT',
     credentials: "same-origin",
